@@ -302,8 +302,10 @@ img {
 }
 
 .header-inner {
+  display: flex;
   width: 100%;
   text-align: left;
+  align-items: center;
 }
 
 .header-logo {
@@ -314,6 +316,25 @@ img {
 .header-content p {
   margin: 0;
   font-size: 1.08rem;
+}
+
+.navbar {
+  flex: 1;
+}
+
+.nav-item {
+  font-size: 1.2em;
+  justify-self: right;
+}
+
+.nav-item a {
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+}
+
+.nav-item a:hover {
+  text-shadow: -1px -5px 0 #464c8b, 1px -5px 0 #464c8b, -1px 5px 0 #464c8b, -1px 5px 0 #464c8b;
 }
 
 .footer-socials img {
