@@ -1,6 +1,7 @@
 <a href="{{ include.event.url }}" class="event-thumbnail expand no-select">
     <div class="event-thumbnail-information">
-        <img src="assets/banners/{{ include.event.banner }}">
+        {% assign image_url = "assets/banners/" | append: include.event.banner %}
+        <img src="{{ image_url | absolute_url }}">
         <div class="event-thumbnail-information-left">
             <div class="event-thumbnail-title">{{ include.event.title | upcase }}</div>
             <div class="event-thumbnail-date">

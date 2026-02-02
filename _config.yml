@@ -4,8 +4,6 @@ about: "Get a full week of gamedev goodness here on the bay. Coinciding with PAX
 markdown: kramdown
 future: true
 timezone: America/New_York
-week_start: 2025-05-05 00:00:00 America/New_York
-pax_day_num: 2
 
 url: https://www.gamedev.boston
 
@@ -33,3 +31,9 @@ collections:
 # Set the Sass partials directory, as we're using @imports
 sass:
   style: :expanded # You might prefer to minify using :compressed
+
+2025_week_start: 2025-05-05 00:00:00 America/New_York
+2025_pax_day_num: 2
+
+2026_week_start: 2026-03-23 00:00:00 America/New_York
+2026_pax_day_num: 2

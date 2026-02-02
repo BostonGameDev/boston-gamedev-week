@@ -9,16 +9,16 @@ layout: default
 
     <div class="ml-embedded second-class" data-form="xFM7At" style="width: 100%;"></div>
 
-	<h1>2025 Schedule</h1>
+	<h1>Schedule</h1>
 	{%- capture processed_now_date -%}
         {{ "now" | date: '%s' }}
     {%- endcapture -%}
     {%- capture processed_week_start_date -%}
-        {{ site.week_start | date: '%s' }}
+        {{ site.2026_week_start | date: '%s' }}
     {%- endcapture -%}
     {% for day_num in (0..5) %}
-		{% assign current_day = site.week_start | add_day: day_num %}
-        {% assign pax_day = day_num | minus: site.pax_day_num %}
+		{% assign current_day = site.2026_week_start | add_day: day_num %}
+        {% assign pax_day = day_num | minus: site.2026_pax_day_num %}
     	{% assign events_for_day = site.events | between_dates: current_day %}
     	{% if events_for_day and events_for_day.size != 0 %}
             <div class="section">
@@ -66,5 +66,6 @@ layout: default
     <div class="sponsorships">
         <h1>Previous Sponsors</h1>
         <img src="/assets/resources/Previous_Sponsors_Block.png" />
+        <p>If you'd like to sponsor this year's festivities, check out our <a href="https://docs.google.com/presentation/d/1X7G1HKrm5jvrcoVDm0qOC5e-5xT9FmlEl-9U0oA69YA/present?usp=sharing">Sponsorship Deck</a>.
     </div>
 </div>

@@ -1,0 +1,47 @@
+---
+layout: default
+permalink: past/2025
+---
+
+<div class="content">
+    <h1>2025 Schedule</h1>
+    {%- capture processed_now_date -%}
+        {{ "now" | date: '%s' }}
+    {%- endcapture -%}
+    {%- capture processed_week_start_date -%}
+        {{ site.2025_week_start | date: '%s' }}
+    {%- endcapture -%}
+    {% for day_num in (0..5) %}
+    	{% assign current_day = site.2025_week_start | add_day: day_num %}
+        {% assign pax_day = day_num | minus: site.2025_pax_day_num %}
+    	{% assign events_for_day = site.events | between_dates: current_day %}
+    	{% if events_for_day and events_for_day.size != 0 %}
+            <div class="section">
+        		<div class="section-header">{{ current_day | date: "%A, %B %-d" }}</div>
+                {% if pax_day == 0 %}
+                    <div class="pax-day">(PAX Setup)</div>
+                {% elsif pax_day > 0 %}
+                    <div class="pax-day">(PAX Day {{ pax_day }})</div>
+                {% endif %}
+        		<div class="event-thumbnail-list element area no-select">
+    		    {% for event in events_for_day %}
+    		        {%- capture processed_start_date -%}
+    		            {{ event.date | date: "%s" }}
+    		        {%- endcapture -%}
+
+    				{%- capture processed_end_date -%}
+    		            {{ event.end_date | date: "%s" }}
+    		        {%- endcapture -%}
+
+    	            {% include elements/event-thumbnail.html event=event day=current_day %}
+    		    {% endfor %}
+    	        </div>
+            </div>
+        {% endif %}
+    {% endfor %}
+
+    <div class="sponsorships">
+        <h1>2025 Sponsors</h1>
+        <img src="/assets/resources/Previous_Sponsors_Block.png" />
+    </div>
+</div>
