@@ -18,3 +18,7 @@ excerpt: Whether you just finished with Demo Night or had a long day at work, jo
 Whether you just finished with [Demo Night](demo-night) or had a long day at work, join us for drinks and laid back conversation.
 
 Hosted by Boston Game Dev, the main purpose of this group is for anyone involved in the creation of games professionally to connect in person in a laid back and chill atmosphere. Art? Marketing? Audio? Programming? QA? Come hang! They've got pinball, pool, indoor space, and outdoor space; a full food menu and drinks.
+
+### Sponsored by
+
+[![Devolver Digital]({{ "/assets/resources/logos/Devolver_primary_logo_red_text_for_light_BG.png" | relative_url }})](https://www.devolverdigital.com/)
