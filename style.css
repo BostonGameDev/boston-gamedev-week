@@ -123,6 +123,16 @@ img {
   padding: 1rem;
 }
 
+.sponsorships {
+  text-align: center;
+}
+
+.sponsorships .sponsor {
+  max-width: 500px;
+  max-height: 150px;
+  padding: 20px;
+}
+
 .bullet-point-list {
   display: flex;
   flex-wrap: wrap;
