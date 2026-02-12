@@ -26,3 +26,7 @@ Join us for demos and drinks at Demo Night, hosted by Boston Indies. Bring your 
 RSVP on the Boston Game Dev meetup page: <https://www.meetup.com/bostongamedev/events/306792090/>
 
 **Boston Indies** is the indie focused arm of Boston Game Dev. Each month we do talks, show off our work, or enjoy coffee or drinks in service of growing Boston's independent game development community.
+
+### Sponsored by
+
+[![GameMaker]({{ "/assets/resources/logos/GameMaker_Logo_BlackTransparent.png" | relative_url }})](http://www.gamemaker.io)
