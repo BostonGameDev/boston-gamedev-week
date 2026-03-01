@@ -16,7 +16,7 @@ layout: default
     {%- capture processed_week_start_date -%}
         {{ site.2026_week_start | date: '%s' }}
     {%- endcapture -%}
-    {% for day_num in (0..5) %}
+    {% for day_num in (0..7) %}
 		{% assign current_day = site.2026_week_start | add_day: day_num %}
         {% assign pax_day = day_num | minus: site.2026_pax_day_num %}
     	{% assign events_for_day = site.events | between_dates: current_day %}
