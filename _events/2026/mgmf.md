@@ -22,3 +22,4 @@ Hosted by Boston Game Dev, the main purpose of this group is for anyone involved
 ### Sponsored by
 
 [![Devolver Digital]({{ "/assets/resources/logos/Devolver_primary_logo_red_text_for_light_BG.png" | relative_url }})](https://www.devolverdigital.com/)
+[![Skymap]({{"/assets/resources/logos/skymap_horizontal_cloud_transparency.png" | relative_url }})](http://www.skymap.com)
