@@ -8,7 +8,7 @@ date: 2026-03-29 12:00:00 America/New_York
 start_date: 2026-03-29 12:00:00 America/New_York
 end_date: 2026-03-29 13:00:00 America/New_York
 
-location: CondorTheatre
+location: "Condor Theatre"
 
 banner: "GameDevAtHome.png"
 
@@ -19,6 +19,7 @@ This is a panel about getting involved with your local game development communit
 
 Whether you're a professional, hobbyist, or just an avid gamer, game development communities have something interesting for everyone! 
 
+[Meetup Link](https://www.meetup.com/bostongamedev/events/313671314/?isFirstPublish=true)
 
 - **Boston Game Dev** is a non-profit dedicated to growing game development.
 

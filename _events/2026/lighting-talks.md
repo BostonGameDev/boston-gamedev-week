@@ -4,11 +4,11 @@ layout: event
 title: "Lighting Talks"
 
 announcement_date: 2024-04-16 10:00:00 America/New_York
-date: 2026-03-27 15:30:00 America/New_York
-start_date: 2026-03-27 15:30:00 America/New_York
-end_date: 2026-03-27 16:30:00 America/New_York
+date: 2026-03-26 15:30:00 America/New_York
+start_date: 2026-03-26 15:30:00 America/New_York
+end_date: 2026-03-26 16:30:00 America/New_York
 
-location: "BumblebeeTheatre"
+location: "Bumblebee Theatre"
 
 banner: "LightningTalks.png"
 
@@ -32,6 +32,8 @@ Blender is my favorite video editor.
 Depending on time, a public Q&A will be offered!
 
 [Official PAX schedule link](https://east.paxsite.com/en-us/schedule/schedule-item.html?gtID=925314&panel-name=Boston-Game-Dev-Lighting-Talks)
+
+[Meetup Link](https://www.meetup.com/bostongamedev/events/313167275/?eventOrigin=group_upcoming_events)
 
 - **Boston Game Dev** is a non-profit dedicated to growing game development.
 
