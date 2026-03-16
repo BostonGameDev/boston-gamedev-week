@@ -4,9 +4,9 @@ layout: event
 title: "BoGo"
 
 announcement_date: 2024-04-16 10:00:00 America/New_York
-date: 2026-03-23 18:00:00 America/New_York
-start_date: 2026-03-23 18:00:00 America/New_York
-end_date: 2026-03-23 22:30:00 America/New_York
+date: 2027-03-23 18:00:00 America/New_York
+start_date: 2027-03-23 18:00:00 America/New_York
+end_date: 2027-03-23 22:30:00 America/New_York
 
 banner: "boston-godot.avif"
 
