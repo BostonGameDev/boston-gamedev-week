@@ -23,7 +23,7 @@ A Mini Conference for game developers? In Boston? What is this, GDC but better?
 
 Join us for two days of conference goodness. On day one, we'll have some smaller talks and tight roundtables. On day two, we'll open up the room to have our larger talks. Hosted by Boston Game Dev at The Link, which is operated by the NonProfit Center.
 
-[Now accepting proposals for talks!](https://boston-gamedev-con-pretalx.onrender.com/minicon-2026/cfp)
+[Reserve your ticket now, as the venue has a capacity of 120.](https://boston-gamedev-con-pretix.onrender.com/bostongamedev/minicon/)
 
 - **Boston Game Dev** is a non-profit dedicated to growing game development. 
 

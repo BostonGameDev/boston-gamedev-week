@@ -8,7 +8,7 @@ date: 2026-03-25 18:00:00 America/New_York
 start_date: 2026-03-25 18:00:00 America/New_York
 end_date: 2026-03-25 20:30:00 America/New_York
 
-location: mit-open-space
+location: mit-welcome-center
 
 banner: "demo-night.png"
 
