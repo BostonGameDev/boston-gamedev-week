@@ -1,7 +1,7 @@
 ---
 layout: event
 
-title: "Twitch Community MeetUps @ PAX East 2026"
+title: "IRL Mode - Twitch Boston PAX After Party"
 
 announcement_date: 2024-04-16 10:00:00 America/New_York
 date: 2026-03-28 21:00:00 America/New_York
