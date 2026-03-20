@@ -19,13 +19,13 @@ This is a panel about getting involved with your local game development communit
 
 Whether you're a professional, hobbyist, or just an avid gamer, game development communities have something interesting for everyone! 
 
-Panelists:
-Yiyi Zhang (she/her) [Director at Gumbo Collective, Founder of Women in Games NYC]
-Tim Cullings (he/him) [Executive Director, Seattle Indies]
-Jason Gertner (he/him) [Game Programmer, Shattered Journal]
-Manny Mallea (he/him) [Boston Post Mortem Organizer, Boston Game Dev]
-Jyro Blade (any) [Head of Games Moku] [Educational and Financial Operations, Gumbo Collective]
-Gavin Camlin (they/them) [Boston Indies Organizer, Boston Game Dev] 
+Panelists:\
+**Yiyi Zhang** (she/her) [Director at Gumbo Collective, Founder of Women in Games NYC]\
+**Tim Cullings** (he/him) [Executive Director, Seattle Indies]\
+**Jason Gertner** (he/him) [Game Programmer, Shattered Journal]\
+**Manny Mallea** (he/him) [Boston Post Mortem Organizer, Boston Game Dev]\
+**Jyro Blade** (any) [Head of Games Moku] [Educational and Financial Operations, Gumbo Collective]\
+**Gavin Camlin** (they/them) [Boston Indies Organizer, Boston Game Dev]\
 
 [PAX Link](https://east.paxsite.com/en-us/schedule/schedule-item.html?gtID=927417&panel-name=Weve-got-GameDev-at-Home-A-panel-about-how-to-get-involved-with-your-local-game-development-community-13-and-)
 [Meetup Link](https://www.meetup.com/bostongamedev/events/313671314/?isFirstPublish=true)
