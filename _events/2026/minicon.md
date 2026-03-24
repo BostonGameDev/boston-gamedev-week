@@ -14,9 +14,9 @@ banner: "MiniConBanner.png"
 
 information:
  - index: front-page
-   link: "https://boston-gamedev-con-pretalx.onrender.com/minicon-2026/"
- - index: proposals
-   link: "https://boston-gamedev-con-pretalx.onrender.com/minicon-2026/cfp"
+   link: "https://boston-gamedev-con-pretix.onrender.com/bostongamedev/minicon//"
+ - index: tickets
+   link: "https://boston-gamedev-con-pretix.onrender.com/bostongamedev/minicon/"
 ---
 
 A Mini Conference for game developers? In Boston? What is this, GDC but better?
@@ -25,8 +25,11 @@ Join us for two days of conference goodness. On day one, we'll have some smaller
 
 [Reserve your ticket now, as the venue has a capacity of 120.](https://boston-gamedev-con-pretix.onrender.com/bostongamedev/minicon/)
 
+[Check the schedule here.](https://boston-gamedev-con-pretalx.onrender.com/minicon-2026/)
+
 - **Boston Game Dev** is a non-profit dedicated to growing game development. 
 
 ### Sponsored by
 
-[![GameMaker]({{ "/assets/resources/logos/GameMaker_Logo_BlackTransparent.png" | relative_url }})](http://www.gamemaker.io)
+<center><a href="http://www.gamemaker.io"><img class="sponsor" style="max-width: 800px;" src="/assets/resources/logos/GameMaker_Logo_BlackTransparent.png" alt="GameMaker" /></a></center>
+<center><a href="http://www.petricoregames.com"><img class="sponsor" style="max-width: 500px;" src="/assets/resources/logos/PetricoreLogo.png" alt="Petricore" /></a></center>
