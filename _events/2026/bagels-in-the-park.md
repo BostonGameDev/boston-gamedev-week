@@ -10,7 +10,7 @@ end_date: 2026-03-29 11:00:00 America/New_York
 
 banner: "BagelsInThePark.png"
 
-location: fan-pier-park
+location: LittleWolf
 
 excerpt: Chill vibes. Hot coffee. A relaxed picnic with bagels and coffee at Fan Pier Park.
 ---
