@@ -2,23 +2,23 @@
 layout: default
 ---
 
-<img src="/assets/resources/BGW PhotoBannerLargel.jpg" />
+<img src="/assets/resources/GABxAKevent.png" />
 <div class="content">
 	<h1>What is Boston Game Dev Week?</h1>
 	<p>Boston Gamedev Week is a slate of events focused on learning, networking, and fun for game developers coinciding with PAX East. Coming anyways? Get in a little early and make some friends before you hit the showroom floor.</p>
 
     <div class="ml-embedded second-class" data-form="xFM7At" style="width: 100%;"></div>
 
-	<h1>Schedule</h1>
+	<!-- <h1>Schedule</h1> -->
 	{%- capture processed_now_date -%}
         {{ "now" | date: '%s' }}
     {%- endcapture -%}
     {%- capture processed_week_start_date -%}
-        {{ site.2026_week_start | date: '%s' }}
+        {{ site.2027_week_start | date: '%s' }}
     {%- endcapture -%}
     {% for day_num in (0..7) %}
-		{% assign current_day = site.2026_week_start | add_day: day_num %}
-        {% assign pax_day = day_num | minus: site.2026_pax_day_num %}
+		{% assign current_day = site.2027_week_start | add_day: day_num %}
+        {% assign pax_day = day_num | minus: site.2027_pax_day_num %}
     	{% assign events_for_day = site.events | between_dates: current_day %}
     	{% if events_for_day and events_for_day.size != 0 %}
             <div class="section">
@@ -60,17 +60,19 @@ layout: default
 
         <p><strong>Game Audio Boston</strong> is the place for all game audio professionals in New England and those aspiring to become ones to meet, discuss, share knowledge, and grow together. As part of the Boston Game Dev group, we host monthly virtual and in-person meetups with guest speakers.</p>
 
+        <p><strong>Boston Godot</strong> is usergroup dedicated to the Godot Engine. Meeting once a month, they focus on supporting developers and giving them a consistent space to share what they're doing.</p>
+
         <p>If you'd like to help Boston Game Dev to support efforts like this, you can <a href="https://secure.givelively.org/donate/boston-game-dev-inc/boston-game-dev">make a tax-deductible donation.</a> This, along with all our Boston Game Dev events, is run entirely by volunteers relying on donations such as this.</p>
     </div>
 
     <div class="sponsorships">
-        <h1>Sponsored By</h1>
+        <h1>Our 2026 Sponsors</h1>
         <a href="http://www.gamemaker.io"><img class="sponsor" src="/assets/resources/logos/GameMaker_Logo_BlackTransparent.png" /></a>
         <a href="http://www.devolverdigital.com"><img class="sponsor" src="/assets/resources/logos/Devolver_primary_logo_red_text_for_light_BG.png" /></a>
         <a href="https://www.audiokinetic.com"><img class="sponsor" src="/assets/resources/logos/audiokinetic-logo.png" /></a>
         <a href="http://www.skymap.com"><img class="sponsor" src="/assets/resources/logos/skymap_horizontal_cloud_transparency.png" /></a>
         <a href="http://www.xogot.com"><img class="sponsor" src="/assets/resources/logos/xogot-logo-wide.png" /></a>
         <a href="http://www.petricoregames.com"><img class="sponsor" style="max-width: 400px;" src="/assets/resources/logos/PetricoreLogo.png" /></a>
-        <p>If you'd like to sponsor this year's festivities, check out our <a href="https://docs.google.com/presentation/d/1X7G1HKrm5jvrcoVDm0qOC5e-5xT9FmlEl-9U0oA69YA/present?usp=sharing">Sponsorship Deck</a>.
+        <p>If you'd like to sponsor next year's festivities, keep an eye out for the 2027 Sponsorship Deck or shoot us an email.
     </div>
 </div>

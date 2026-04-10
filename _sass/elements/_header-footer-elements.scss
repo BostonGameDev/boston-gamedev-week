@@ -66,6 +66,38 @@
     text-shadow: -1px -5px 0 #464c8b, 1px -5px 0 #464c8b, -1px 5px 0 #464c8b, -1px 5px 0 #464c8b;
 }
 
+.year-dropdown
+{
+    position: relative;
+    display: inline-block;
+    font-weight: 700;
+    color: white;
+}
+
+.year-dropdown-content
+{
+    display: none;
+    position: absolute;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+    z-index: 1;
+}
+
+.year-dropdown-content a
+{
+    display: block;
+    width: 100%;
+    background: linear-gradient(180deg, #333977, #464c8b);
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.year-dropdown:hover .year-dropdown-content
+{
+    display: block;
+}
+
+
 .footer-socials img
 {
     width: 3rem;

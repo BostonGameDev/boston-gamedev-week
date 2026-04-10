@@ -3,7 +3,14 @@
         <a href="/"><img class="header-logo expand" src="/assets/resources/logos/NavBarLogo.png"></a>
         <div class="navbar">
             <div class="nav-item"><a href="{{ "about" | absolute_url }}">About</a></div>
-            <div class="nav-item"><a href="{{ "past/2025" | absolute_url }}">Past Events</a></div>
+            <div class="nav-item">
+                <div class="year-dropdown">Past Years
+                    <div class="year-dropdown-content">
+                        <a href="{{ "past/2025" | absolute_url }}">2025</a>
+                        <a href="{{ "past/2026" | absolute_url }}">2026</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </header>

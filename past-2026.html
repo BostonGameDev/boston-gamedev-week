@@ -1,0 +1,56 @@
+---
+layout: default
+permalink: past/2026
+---
+
+<img src="/assets/resources/BGW PhotoBannerLargel.jpg" />
+<div class="content">
+	<h1>What is Boston Game Dev Week?</h1>
+	<p>Boston Gamedev Week is a slate of events focused on learning, networking, and fun for game developers coinciding with PAX East. Coming anyways? Get in a little early and make some friends before you hit the showroom floor.</p>
+
+	<h1>Schedule</h1>
+	{%- capture processed_now_date -%}
+        {{ "now" | date: '%s' }}
+    {%- endcapture -%}
+    {%- capture processed_week_start_date -%}
+        {{ site.2026_week_start | date: '%s' }}
+    {%- endcapture -%}
+    {% for day_num in (0..7) %}
+		{% assign current_day = site.2026_week_start | add_day: day_num %}
+        {% assign pax_day = day_num | minus: site.2026_pax_day_num %}
+    	{% assign events_for_day = site.events | between_dates: current_day %}
+    	{% if events_for_day and events_for_day.size != 0 %}
+            <div class="section">
+        		<div class="section-header">{{ current_day | date: "%A, %B %-d" }}</div>
+                {% if pax_day == 0 %}
+                    <div class="pax-day">(PAX Setup)</div>
+                {% elsif pax_day > 0 %}
+                    <div class="pax-day">(PAX Day {{ pax_day }})</div>
+                {% endif %}
+        		<div class="event-thumbnail-list element area no-select">
+    		    {% for event in events_for_day %}
+    		        {%- capture processed_start_date -%}
+    		            {{ event.date | date: "%s" }}
+    		        {%- endcapture -%}
+
+    				{%- capture processed_end_date -%}
+    		            {{ event.end_date | date: "%s" }}
+    		        {%- endcapture -%}
+
+    	            {% include elements/event-thumbnail.html event=event day=current_day %}
+    		    {% endfor %}
+    	        </div>
+            </div>
+	    {% endif %}
+    {% endfor %}
+
+    <div class="sponsorships">
+        <h1>Sponsored By</h1>
+        <a href="http://www.gamemaker.io"><img class="sponsor" src="/assets/resources/logos/GameMaker_Logo_BlackTransparent.png" /></a>
+        <a href="http://www.devolverdigital.com"><img class="sponsor" src="/assets/resources/logos/Devolver_primary_logo_red_text_for_light_BG.png" /></a>
+        <a href="https://www.audiokinetic.com"><img class="sponsor" src="/assets/resources/logos/audiokinetic-logo.png" /></a>
+        <a href="http://www.skymap.com"><img class="sponsor" src="/assets/resources/logos/skymap_horizontal_cloud_transparency.png" /></a>
+        <a href="http://www.xogot.com"><img class="sponsor" src="/assets/resources/logos/xogot-logo-wide.png" /></a>
+        <a href="http://www.petricoregames.com"><img class="sponsor" style="max-width: 400px;" src="/assets/resources/logos/PetricoreLogo.png" /></a>
+    </div>
+</div>
