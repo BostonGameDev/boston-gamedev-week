@@ -57,6 +57,12 @@
     border-radius: 0rem 1rem 1rem 0rem;
 
     background-color: $colorYellow;
+
+    @include mobile
+    {
+        height: 75px;
+        gap: 0.2rem;
+    }
 }
 
 .event-thumbnail-information-right
@@ -69,6 +75,11 @@
 {
     font-family: $fontHeader;
     font-size: 1.1rem;
+
+    @include mobile
+    {
+        font-size: 0.9rem;
+    }
 }
 
 .event-thumbnail-date
@@ -78,6 +89,11 @@
     gap: 0.2rem;
     
     font-weight: bold;
+
+    @include mobile
+    {
+        font-size: 0.8rem;
+    }
 }
 
 .event-thumbnail-date img

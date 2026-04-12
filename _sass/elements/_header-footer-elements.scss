@@ -108,3 +108,16 @@
 {
     color: $colorYellow;
 }
+
+@media screen and (max-width: 600px)
+{
+    .header-logo-text
+    {
+        display: none;
+    }
+
+    .sponsorships .sponsor
+    {
+        max-width: 80%;
+    }
+}
