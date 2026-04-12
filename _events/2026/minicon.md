@@ -14,7 +14,7 @@ banner: "MiniConBanner.png"
 
 information:
  - index: front-page
-   link: "https://boston-gamedev-con-pretix.onrender.com/bostongamedev/minicon//"
+   link: "https://boston-gamedev-con-pretix.onrender.com/bostongamedev/minicon/"
  - index: tickets
    link: "https://boston-gamedev-con-pretix.onrender.com/bostongamedev/minicon/"
 ---

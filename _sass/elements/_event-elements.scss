@@ -18,11 +18,41 @@
     text-decoration: none;
 }
 
-.event-thumbnail img
+.event-thumbnail .event-banner
 {
     border-radius: 1rem 0rem 0rem 1rem;
     height: 110px;
     width: auto;
+    max-width: fit-content;
+
+    @include mobile
+    {
+        height: 75px;
+    }
+}
+
+.event-thumbnail .event-ticket
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.event-thumbnail .pax
+{
+    filter: invert(20%) sepia(49%) saturate(5682%) hue-rotate(310deg) brightness(80%) contrast(100%) drop-shadow(2px 4px 6px black);
+}
+
+.event-thumbnail .ticketed
+{
+    filter: invert(17%) sepia(18%) saturate(1741%) hue-rotate(-349deg) brightness(95%) contrast(132%) drop-shadow(2px 4px 6px black);
+}
+
+.event-thumbnail-image-container
+{
+    border-radius: 1rem 0rem 0rem 1rem;
+    height: 110px;
+    max-width: 100%;
 
     @include mobile
     {
