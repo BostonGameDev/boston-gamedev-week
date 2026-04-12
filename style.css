@@ -247,6 +247,12 @@ img {
   border-radius: 0rem 1rem 1rem 0rem;
   background-color: #f0e921;
 }
+@media screen and (max-width: 1152px) {
+  .event-thumbnail-information-left {
+    height: 75px;
+    gap: 0.2rem;
+  }
+}
 
 .event-thumbnail-information-right {
   display: flex;
@@ -257,12 +263,22 @@ img {
   font-family: "rl aqva", sans-serif;
   font-size: 1.1rem;
 }
+@media screen and (max-width: 1152px) {
+  .event-thumbnail-title {
+    font-size: 0.9rem;
+  }
+}
 
 .event-thumbnail-date {
   display: flex;
   align-items: center;
   gap: 0.2rem;
   font-weight: bold;
+}
+@media screen and (max-width: 1152px) {
+  .event-thumbnail-date {
+    font-size: 0.8rem;
+  }
 }
 
 .event-thumbnail-date img {
@@ -383,6 +399,14 @@ img {
   color: #f0e921;
 }
 
+@media screen and (max-width: 600px) {
+  .header-logo-text {
+    display: none;
+  }
+  .sponsorships .sponsor {
+    max-width: 80%;
+  }
+}
 .link-list {
   margin-top: 2rem;
   margin-bottom: 2rem;
